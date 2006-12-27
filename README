@@ -1,0 +1,40 @@
+Data::Tabulate::Plugin::HTMLTable
+
+A plugin for Data::Tabulate to generate HTML tables
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the perldoc command.
+
+    perldoc Data::Tabulate::Plugin::HTMLTable
+
+You can also look for information at:
+
+    Search CPAN
+        http://search.cpan.org/dist/Data::Tabulate::Plugin::HTMLTable
+
+    CPAN Request Tracker:
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data::Tabulate::Plugin::HTMLTable
+
+    AnnoCPAN, annotated CPAN documentation:
+        http://annocpan.org/dist/Data::Tabulate::Plugin::HTMLTable
+
+    CPAN Ratings:
+        http://cpanratings.perl.org/d/Data::Tabulate::Plugin::HTMLTable
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 Renee Baecker
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
