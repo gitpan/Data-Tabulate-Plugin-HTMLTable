@@ -10,11 +10,11 @@ Data::Tabulate::Plugin::HTMLTable - HTML::Table plugin for Data::Tabulate
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -98,11 +98,11 @@ You can also look for information at:
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Data::Tabulate::Plugin::HTMLTable>
+L<http://annocpan.org/dist/Data-Tabulate-Plugin-HTMLTable>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Data::Tabulate::Plugin::HTMLTable>
+L<http://cpanratings.perl.org/d/Data-Tabulate-Plugin-HTMLTable>
 
 =item * RT: CPAN's request tracker
 
@@ -110,7 +110,7 @@ L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data::Tabulate::Plugin::HTMLTable>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Data::Tabulate::Plugin::HTMLTable>
+L<http://search.cpan.org/dist/Data-Tabulate-Plugin-HTMLTable>
 
 =back
 
@@ -118,7 +118,7 @@ L<http://search.cpan.org/dist/Data::Tabulate::Plugin::HTMLTable>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Renee Baecker, all rights reserved.
+Copyright 2006 - 2007 Renee Baecker, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

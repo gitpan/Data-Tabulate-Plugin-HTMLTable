@@ -7,11 +7,15 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Renee Baecker <module@renee-baecker.de>',
     dist_version_from   => 'lib/Data/Tabulate/Plugin/HTMLTable.pm',
-    build_requires => {
-        'Test::More'          => 0,
+    requires            => {
+        'Data::Tabulate'      => 0.04,
         'HTML::Table'         => 2.0,
+    },
+    build_requires      => {
+        'Test::More'          => 0,
         'Test::CheckManifest' => 1.0,
-        'Data::Tabulate'      => 0.02,
+        'Data::Tabulate'      => 0.04,
+        'HTML::Table'         => 2.0,
     },
     add_to_cleanup      => [ 'Data::Tabulate::Plugin::HTMLTable-*' ],
 );
