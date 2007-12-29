@@ -16,7 +16,7 @@ my ($tbody,$tbody_end) = ("","");
 my $version            = HTML::Table->VERSION;
    $version            =~ s/[^\d.]//g;
    
-if( $version + 0 > 2.07 ){
+if( $version + 0 >= 2.07 ){
     $tbody     = "\n<tbody>";
     $tbody_end = "</tbody>\n";
 }

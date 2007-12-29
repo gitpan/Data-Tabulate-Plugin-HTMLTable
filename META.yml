@@ -1,6 +1,6 @@
 ---
 name: Data-Tabulate-Plugin-HTMLTable
-version: 0.02
+version: 0.0201
 author:
   - 'Renee Baecker <module@renee-baecker.de>'
 abstract: HTML::Table plugin for Data::Tabulate
@@ -16,5 +16,5 @@ build_requires:
 provides:
   Data::Tabulate::Plugin::HTMLTable:
     file: lib/Data/Tabulate/Plugin/HTMLTable.pm
-    version: 0.02
+    version: 0.0201
 generated_by: Module::Build version 0.26
