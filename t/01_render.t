@@ -8,13 +8,14 @@ eval "use Data::Tabulate";
 plan skip_all => "Data::Tabulate is not installed" if $@;
 
 plan tests => 1;
+
 my @array     = (1..10);
 my $tabulator = Data::Tabulate->new();
 my $html      = $tabulator->render('HTMLTable',{ data => \@array } );
 
 my ($tbody,$tbody_end) = ("","");
-my $version            = HTML::Table->VERSION;
-   $version            =~ s/[^\d.]//g;
+my $version            = $HTML::Table::VERSION;
+   $version            =~ s/[a-z-]//g;
    
 if( $version + 0 >= 2.07 ){
     $tbody     = "\n<tbody>";
